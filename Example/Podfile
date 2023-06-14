@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZSEventCatch_Example' do
+  pod 'ZSEventCatch', :path => '../'
+
+  target 'ZSEventCatch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
